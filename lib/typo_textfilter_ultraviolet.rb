@@ -42,7 +42,7 @@ This uses the [Ultraviolet](http://ultraviolet.rubyforge.org/) syntax highlighti
 
       def self.set_whiteboard(blog, content, theme)
         content.whiteboard["page_header_ultraviolet_#{theme}"] = <<-HTML
-          <link href="#{blog.base_url}/stylesheets/ultraviolet/#{theme}.css" media="all" rel="Stylesheet" type="text/css" />
+          <link href="#{blog.base_url}/stylesheets/ultraviolet/css/#{theme}.css" media="all" rel="Stylesheet" type="text/css" />
         HTML
       end 
     end
